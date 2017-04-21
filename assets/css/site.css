@@ -297,6 +297,9 @@ a,
     text-align: center;
     padding: 40px 20px;
     margin: 0 0 20px;
+    -webkit-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0 rgba(50, 50, 50, 0.75);
 }
 
 .iconbox-icon {
@@ -349,6 +352,9 @@ a,
     height: auto;
     background: #3085a3;
     text-align: center;
+    -webkit-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0 rgba(50, 50, 50, 0.75);
 }
 
 .grid figure img {
@@ -528,7 +534,7 @@ figure.effect-bubba:hover p {
 }
 
 .contact-text{
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 30px;
     font-size: 16px;
 }
