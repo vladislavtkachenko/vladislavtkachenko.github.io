@@ -14,7 +14,6 @@ html{
     max-width: 100%;
 }
 
-
 #preloader {
     background: #FFF;
     bottom: 0;
@@ -38,7 +37,6 @@ html{
 .pfblock-image {
     padding: 0;
 }
-
 
 #home {
     background: #222 url("../img/cover_2.jpg") no-repeat fixed 50% 50%;
@@ -93,7 +91,6 @@ html{
     color: white;
 }
 
-
 .scroll-down {
     position: absolute;
     left: 50%;
@@ -125,7 +122,6 @@ html{
     animation-play-state: running;
 }
 
-
 @-webkit-keyframes drop	{
     0%   { top:0;  opacity: 0;}
     30%  { top:10px; opacity: 1;}
@@ -137,8 +133,6 @@ html{
     30%  { top:10px; opacity: 1;}
     100% { top:25px; opacity: 0;}
 }
-
-
 
 a {
     color: #E7746F;
@@ -180,9 +174,7 @@ a,
     transition: all 0.125s ease-in-out 0s;
 }
 
-
 .header {
-   /* border-bottom: 1px solid #f5f5f5; */
     position: relative;
     width: 100%;
     z-index: 998;
@@ -332,7 +324,6 @@ a,
     font-size: 32px;
     color: #222;
 }
-
 
 .grid {
     position: relative;
@@ -494,7 +485,6 @@ figure.effect-bubba:hover p {
     transform: translate3d(0,0,0);
 }
 
-
 .chart {
     display: inline-block;
     height: 140px;
@@ -527,16 +517,21 @@ figure.effect-bubba:hover p {
     margin: 0 0 5px;
 }
 
-
 #contact{
     padding-bottom: 30px;
 }
 .contacts p{
     font-size: 16px;
 }
+.col-lg-3{
+    text-align: center;
+}
 
-
-
+.contact-text{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
 
 #footer {
     background: #222;
@@ -597,11 +592,18 @@ figure.effect-bubba:hover p {
         margin-left: auto;
         margin-right: auto;
     }
+    .contact-text{
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .calltoaction {
         text-align: center;
+    }
+    .contact-text{
+        margin-bottom: 0;
     }
 }
 
