@@ -10,6 +10,9 @@ body {
     color: #666;
     max-width: 100%;
 }
+html{
+    max-width: 100%;
+}
 
 
 #preloader {
@@ -592,6 +595,10 @@ figure.effect-bubba:hover p {
 @media screen and (max-width: 991px){
     .navbar-custom .navbar-brand {
         font-size: 16px;
+    }
+    .skills{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
